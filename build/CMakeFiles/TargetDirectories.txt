@@ -1,0 +1,5 @@
+/home/yarob/Arduino/simulide/traffic/traffic_code/build/CMakeFiles/traffic.dir
+/home/yarob/Arduino/simulide/traffic/traffic_code/build/CMakeFiles/strip.dir
+/home/yarob/Arduino/simulide/traffic/traffic_code/build/CMakeFiles/hex.dir
+/home/yarob/Arduino/simulide/traffic/traffic_code/build/CMakeFiles/edit_cache.dir
+/home/yarob/Arduino/simulide/traffic/traffic_code/build/CMakeFiles/rebuild_cache.dir
