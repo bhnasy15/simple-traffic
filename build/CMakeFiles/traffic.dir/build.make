@@ -69,10 +69,24 @@ include CMakeFiles/traffic.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/traffic.dir/flags.make
 
+CMakeFiles/traffic.dir/src/Application/app.c.o: CMakeFiles/traffic.dir/flags.make
+CMakeFiles/traffic.dir/src/Application/app.c.o: /home/yarob/Arduino/simulide/traffic/traffic_code/src/Application/app.c
+CMakeFiles/traffic.dir/src/Application/app.c.o: CMakeFiles/traffic.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yarob/Arduino/simulide/traffic/traffic_code/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/traffic.dir/src/Application/app.c.o"
+	avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/traffic.dir/src/Application/app.c.o -MF CMakeFiles/traffic.dir/src/Application/app.c.o.d -o CMakeFiles/traffic.dir/src/Application/app.c.o -c /home/yarob/Arduino/simulide/traffic/traffic_code/src/Application/app.c
+
+CMakeFiles/traffic.dir/src/Application/app.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/traffic.dir/src/Application/app.c.i"
+	avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/yarob/Arduino/simulide/traffic/traffic_code/src/Application/app.c > CMakeFiles/traffic.dir/src/Application/app.c.i
+
+CMakeFiles/traffic.dir/src/Application/app.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/traffic.dir/src/Application/app.c.s"
+	avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/yarob/Arduino/simulide/traffic/traffic_code/src/Application/app.c -o CMakeFiles/traffic.dir/src/Application/app.c.s
+
 CMakeFiles/traffic.dir/src/ECUAL/button/button.c.o: CMakeFiles/traffic.dir/flags.make
 CMakeFiles/traffic.dir/src/ECUAL/button/button.c.o: /home/yarob/Arduino/simulide/traffic/traffic_code/src/ECUAL/button/button.c
 CMakeFiles/traffic.dir/src/ECUAL/button/button.c.o: CMakeFiles/traffic.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yarob/Arduino/simulide/traffic/traffic_code/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/traffic.dir/src/ECUAL/button/button.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yarob/Arduino/simulide/traffic/traffic_code/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/traffic.dir/src/ECUAL/button/button.c.o"
 	avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/traffic.dir/src/ECUAL/button/button.c.o -MF CMakeFiles/traffic.dir/src/ECUAL/button/button.c.o.d -o CMakeFiles/traffic.dir/src/ECUAL/button/button.c.o -c /home/yarob/Arduino/simulide/traffic/traffic_code/src/ECUAL/button/button.c
 
 CMakeFiles/traffic.dir/src/ECUAL/button/button.c.i: cmake_force
@@ -86,7 +100,7 @@ CMakeFiles/traffic.dir/src/ECUAL/button/button.c.s: cmake_force
 CMakeFiles/traffic.dir/src/ECUAL/led/led.c.o: CMakeFiles/traffic.dir/flags.make
 CMakeFiles/traffic.dir/src/ECUAL/led/led.c.o: /home/yarob/Arduino/simulide/traffic/traffic_code/src/ECUAL/led/led.c
 CMakeFiles/traffic.dir/src/ECUAL/led/led.c.o: CMakeFiles/traffic.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yarob/Arduino/simulide/traffic/traffic_code/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/traffic.dir/src/ECUAL/led/led.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yarob/Arduino/simulide/traffic/traffic_code/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/traffic.dir/src/ECUAL/led/led.c.o"
 	avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/traffic.dir/src/ECUAL/led/led.c.o -MF CMakeFiles/traffic.dir/src/ECUAL/led/led.c.o.d -o CMakeFiles/traffic.dir/src/ECUAL/led/led.c.o -c /home/yarob/Arduino/simulide/traffic/traffic_code/src/ECUAL/led/led.c
 
 CMakeFiles/traffic.dir/src/ECUAL/led/led.c.i: cmake_force
@@ -100,7 +114,7 @@ CMakeFiles/traffic.dir/src/ECUAL/led/led.c.s: cmake_force
 CMakeFiles/traffic.dir/src/MCAL/dio/dio.c.o: CMakeFiles/traffic.dir/flags.make
 CMakeFiles/traffic.dir/src/MCAL/dio/dio.c.o: /home/yarob/Arduino/simulide/traffic/traffic_code/src/MCAL/dio/dio.c
 CMakeFiles/traffic.dir/src/MCAL/dio/dio.c.o: CMakeFiles/traffic.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yarob/Arduino/simulide/traffic/traffic_code/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/traffic.dir/src/MCAL/dio/dio.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yarob/Arduino/simulide/traffic/traffic_code/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/traffic.dir/src/MCAL/dio/dio.c.o"
 	avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/traffic.dir/src/MCAL/dio/dio.c.o -MF CMakeFiles/traffic.dir/src/MCAL/dio/dio.c.o.d -o CMakeFiles/traffic.dir/src/MCAL/dio/dio.c.o -c /home/yarob/Arduino/simulide/traffic/traffic_code/src/MCAL/dio/dio.c
 
 CMakeFiles/traffic.dir/src/MCAL/dio/dio.c.i: cmake_force
@@ -114,7 +128,7 @@ CMakeFiles/traffic.dir/src/MCAL/dio/dio.c.s: cmake_force
 CMakeFiles/traffic.dir/src/MCAL/timer/timer.c.o: CMakeFiles/traffic.dir/flags.make
 CMakeFiles/traffic.dir/src/MCAL/timer/timer.c.o: /home/yarob/Arduino/simulide/traffic/traffic_code/src/MCAL/timer/timer.c
 CMakeFiles/traffic.dir/src/MCAL/timer/timer.c.o: CMakeFiles/traffic.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yarob/Arduino/simulide/traffic/traffic_code/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/traffic.dir/src/MCAL/timer/timer.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yarob/Arduino/simulide/traffic/traffic_code/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/traffic.dir/src/MCAL/timer/timer.c.o"
 	avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/traffic.dir/src/MCAL/timer/timer.c.o -MF CMakeFiles/traffic.dir/src/MCAL/timer/timer.c.o.d -o CMakeFiles/traffic.dir/src/MCAL/timer/timer.c.o -c /home/yarob/Arduino/simulide/traffic/traffic_code/src/MCAL/timer/timer.c
 
 CMakeFiles/traffic.dir/src/MCAL/timer/timer.c.i: cmake_force
@@ -128,7 +142,7 @@ CMakeFiles/traffic.dir/src/MCAL/timer/timer.c.s: cmake_force
 CMakeFiles/traffic.dir/src/main.c.o: CMakeFiles/traffic.dir/flags.make
 CMakeFiles/traffic.dir/src/main.c.o: /home/yarob/Arduino/simulide/traffic/traffic_code/src/main.c
 CMakeFiles/traffic.dir/src/main.c.o: CMakeFiles/traffic.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yarob/Arduino/simulide/traffic/traffic_code/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/traffic.dir/src/main.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yarob/Arduino/simulide/traffic/traffic_code/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/traffic.dir/src/main.c.o"
 	avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/traffic.dir/src/main.c.o -MF CMakeFiles/traffic.dir/src/main.c.o.d -o CMakeFiles/traffic.dir/src/main.c.o -c /home/yarob/Arduino/simulide/traffic/traffic_code/src/main.c
 
 CMakeFiles/traffic.dir/src/main.c.i: cmake_force
@@ -141,6 +155,7 @@ CMakeFiles/traffic.dir/src/main.c.s: cmake_force
 
 # Object files for target traffic
 traffic_OBJECTS = \
+"CMakeFiles/traffic.dir/src/Application/app.c.o" \
 "CMakeFiles/traffic.dir/src/ECUAL/button/button.c.o" \
 "CMakeFiles/traffic.dir/src/ECUAL/led/led.c.o" \
 "CMakeFiles/traffic.dir/src/MCAL/dio/dio.c.o" \
@@ -150,6 +165,7 @@ traffic_OBJECTS = \
 # External object files for target traffic
 traffic_EXTERNAL_OBJECTS =
 
+traffic.elf: CMakeFiles/traffic.dir/src/Application/app.c.o
 traffic.elf: CMakeFiles/traffic.dir/src/ECUAL/button/button.c.o
 traffic.elf: CMakeFiles/traffic.dir/src/ECUAL/led/led.c.o
 traffic.elf: CMakeFiles/traffic.dir/src/MCAL/dio/dio.c.o
@@ -157,7 +173,7 @@ traffic.elf: CMakeFiles/traffic.dir/src/MCAL/timer/timer.c.o
 traffic.elf: CMakeFiles/traffic.dir/src/main.c.o
 traffic.elf: CMakeFiles/traffic.dir/build.make
 traffic.elf: CMakeFiles/traffic.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/yarob/Arduino/simulide/traffic/traffic_code/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking C executable traffic.elf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/yarob/Arduino/simulide/traffic/traffic_code/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking C executable traffic.elf"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/traffic.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

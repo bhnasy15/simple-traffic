@@ -1,1 +1,1 @@
-avr-gcc -mmcu=atmega32 CMakeFiles/traffic.dir/src/ECUAL/button/button.c.o CMakeFiles/traffic.dir/src/ECUAL/led/led.c.o CMakeFiles/traffic.dir/src/MCAL/dio/dio.c.o CMakeFiles/traffic.dir/src/MCAL/timer/timer.c.o CMakeFiles/traffic.dir/src/main.c.o -o traffic.elf 
+avr-gcc -mmcu=atmega32 CMakeFiles/traffic.dir/src/Application/app.c.o CMakeFiles/traffic.dir/src/ECUAL/button/button.c.o CMakeFiles/traffic.dir/src/ECUAL/led/led.c.o CMakeFiles/traffic.dir/src/MCAL/dio/dio.c.o CMakeFiles/traffic.dir/src/MCAL/timer/timer.c.o CMakeFiles/traffic.dir/src/main.c.o -o traffic.elf 

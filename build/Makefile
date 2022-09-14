@@ -155,6 +155,30 @@ hex/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/hex.dir/build.make CMakeFiles/hex.dir/build
 .PHONY : hex/fast
 
+src/Application/app.o: src/Application/app.c.o
+.PHONY : src/Application/app.o
+
+# target to build an object file
+src/Application/app.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/traffic.dir/build.make CMakeFiles/traffic.dir/src/Application/app.c.o
+.PHONY : src/Application/app.c.o
+
+src/Application/app.i: src/Application/app.c.i
+.PHONY : src/Application/app.i
+
+# target to preprocess a source file
+src/Application/app.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/traffic.dir/build.make CMakeFiles/traffic.dir/src/Application/app.c.i
+.PHONY : src/Application/app.c.i
+
+src/Application/app.s: src/Application/app.c.s
+.PHONY : src/Application/app.s
+
+# target to generate assembly for a file
+src/Application/app.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/traffic.dir/build.make CMakeFiles/traffic.dir/src/Application/app.c.s
+.PHONY : src/Application/app.c.s
+
 src/ECUAL/button/button.o: src/ECUAL/button/button.c.o
 .PHONY : src/ECUAL/button/button.o
 
@@ -286,6 +310,9 @@ help:
 	@echo "... hex"
 	@echo "... strip"
 	@echo "... traffic"
+	@echo "... src/Application/app.o"
+	@echo "... src/Application/app.i"
+	@echo "... src/Application/app.s"
 	@echo "... src/ECUAL/button/button.o"
 	@echo "... src/ECUAL/button/button.i"
 	@echo "... src/ECUAL/button/button.s"

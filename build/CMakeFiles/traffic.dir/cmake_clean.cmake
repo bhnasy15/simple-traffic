@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/traffic.dir/src/Application/app.c.o"
+  "CMakeFiles/traffic.dir/src/Application/app.c.o.d"
   "CMakeFiles/traffic.dir/src/ECUAL/button/button.c.o"
   "CMakeFiles/traffic.dir/src/ECUAL/button/button.c.o.d"
   "CMakeFiles/traffic.dir/src/ECUAL/led/led.c.o"

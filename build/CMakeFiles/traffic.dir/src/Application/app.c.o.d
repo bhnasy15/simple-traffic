@@ -1,6 +1,5 @@
-CMakeFiles/traffic.dir/src/main.c.o: \
- /home/yarob/Arduino/simulide/traffic/traffic_code/src/main.c \
- /home/yarob/Arduino/simulide/traffic/traffic_code/src/main.h \
+CMakeFiles/traffic.dir/src/Application/app.c.o: \
+ /home/yarob/Arduino/simulide/traffic/traffic_code/src/Application/app.c \
  /home/yarob/Arduino/simulide/traffic/traffic_code/src/Application/app.h \
  /home/yarob/Arduino/simulide/traffic/traffic_code/src/Application/../Util/util.h \
  /home/yarob/Arduino/simulide/traffic/traffic_code/src/Application/../MCAL/dio/dio.h \
