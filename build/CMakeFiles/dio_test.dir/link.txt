@@ -1,1 +1,0 @@
-avr-gcc -mmcu=atmega32 CMakeFiles/dio_test.dir/src/MCAL/dio/dio.c.o CMakeFiles/dio_test.dir/src/MCAL/timer/timer.c.o CMakeFiles/dio_test.dir/test/dio_test.c.o -o test/dio_test 
