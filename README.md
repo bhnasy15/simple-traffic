@@ -10,6 +10,5 @@
 
 ## notes
 - video
- ` media/discription.mp4 or 
- https://drive.google.com/file/d/1v7KCfwsh_v7io2ND_9OPlekYtrq60_7C/view?usp=sharing `
+ ` https://drive.google.com/file/d/1v7KCfwsh_v7io2ND_9OPlekYtrq60_7C/view?usp=sharing `
 
