@@ -1,8 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/hex"
-  "traffic.eeprom"
-  "traffic.hex"
-  "traffic.lst"
+  "test/button_test.hex"
 )
 
 # Per-language clean rules from dependency scanning.

@@ -155,6 +155,123 @@ hex/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/hex.dir/build.make CMakeFiles/hex.dir/build
 .PHONY : hex/fast
 
+#=============================================================================
+# Target rules for targets named dio_test
+
+# Build rule for target.
+dio_test: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 dio_test
+.PHONY : dio_test
+
+# fast build rule for target.
+dio_test/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dio_test.dir/build.make CMakeFiles/dio_test.dir/build
+.PHONY : dio_test/fast
+
+#=============================================================================
+# Target rules for targets named strip_dio
+
+# Build rule for target.
+strip_dio: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 strip_dio
+.PHONY : strip_dio
+
+# fast build rule for target.
+strip_dio/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/strip_dio.dir/build.make CMakeFiles/strip_dio.dir/build
+.PHONY : strip_dio/fast
+
+#=============================================================================
+# Target rules for targets named hex_dio
+
+# Build rule for target.
+hex_dio: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 hex_dio
+.PHONY : hex_dio
+
+# fast build rule for target.
+hex_dio/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hex_dio.dir/build.make CMakeFiles/hex_dio.dir/build
+.PHONY : hex_dio/fast
+
+#=============================================================================
+# Target rules for targets named led_test
+
+# Build rule for target.
+led_test: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 led_test
+.PHONY : led_test
+
+# fast build rule for target.
+led_test/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/led_test.dir/build.make CMakeFiles/led_test.dir/build
+.PHONY : led_test/fast
+
+#=============================================================================
+# Target rules for targets named strip_led
+
+# Build rule for target.
+strip_led: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 strip_led
+.PHONY : strip_led
+
+# fast build rule for target.
+strip_led/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/strip_led.dir/build.make CMakeFiles/strip_led.dir/build
+.PHONY : strip_led/fast
+
+#=============================================================================
+# Target rules for targets named hex_led
+
+# Build rule for target.
+hex_led: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 hex_led
+.PHONY : hex_led
+
+# fast build rule for target.
+hex_led/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hex_led.dir/build.make CMakeFiles/hex_led.dir/build
+.PHONY : hex_led/fast
+
+#=============================================================================
+# Target rules for targets named button_test
+
+# Build rule for target.
+button_test: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 button_test
+.PHONY : button_test
+
+# fast build rule for target.
+button_test/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/button_test.dir/build.make CMakeFiles/button_test.dir/build
+.PHONY : button_test/fast
+
+#=============================================================================
+# Target rules for targets named strip_button
+
+# Build rule for target.
+strip_button: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 strip_button
+.PHONY : strip_button
+
+# fast build rule for target.
+strip_button/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/strip_button.dir/build.make CMakeFiles/strip_button.dir/build
+.PHONY : strip_button/fast
+
+#=============================================================================
+# Target rules for targets named hex_button
+
+# Build rule for target.
+hex_button: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 hex_button
+.PHONY : hex_button
+
+# fast build rule for target.
+hex_button/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hex_button.dir/build.make CMakeFiles/hex_button.dir/build
+.PHONY : hex_button/fast
+
 src/Application/app.o: src/Application/app.c.o
 .PHONY : src/Application/app.o
 
@@ -185,6 +302,7 @@ src/ECUAL/button/button.o: src/ECUAL/button/button.c.o
 # target to build an object file
 src/ECUAL/button/button.c.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/traffic.dir/build.make CMakeFiles/traffic.dir/src/ECUAL/button/button.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/button_test.dir/build.make CMakeFiles/button_test.dir/src/ECUAL/button/button.c.o
 .PHONY : src/ECUAL/button/button.c.o
 
 src/ECUAL/button/button.i: src/ECUAL/button/button.c.i
@@ -193,6 +311,7 @@ src/ECUAL/button/button.i: src/ECUAL/button/button.c.i
 # target to preprocess a source file
 src/ECUAL/button/button.c.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/traffic.dir/build.make CMakeFiles/traffic.dir/src/ECUAL/button/button.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/button_test.dir/build.make CMakeFiles/button_test.dir/src/ECUAL/button/button.c.i
 .PHONY : src/ECUAL/button/button.c.i
 
 src/ECUAL/button/button.s: src/ECUAL/button/button.c.s
@@ -201,6 +320,7 @@ src/ECUAL/button/button.s: src/ECUAL/button/button.c.s
 # target to generate assembly for a file
 src/ECUAL/button/button.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/traffic.dir/build.make CMakeFiles/traffic.dir/src/ECUAL/button/button.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/button_test.dir/build.make CMakeFiles/button_test.dir/src/ECUAL/button/button.c.s
 .PHONY : src/ECUAL/button/button.c.s
 
 src/ECUAL/led/led.o: src/ECUAL/led/led.c.o
@@ -209,6 +329,8 @@ src/ECUAL/led/led.o: src/ECUAL/led/led.c.o
 # target to build an object file
 src/ECUAL/led/led.c.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/traffic.dir/build.make CMakeFiles/traffic.dir/src/ECUAL/led/led.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/led_test.dir/build.make CMakeFiles/led_test.dir/src/ECUAL/led/led.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/button_test.dir/build.make CMakeFiles/button_test.dir/src/ECUAL/led/led.c.o
 .PHONY : src/ECUAL/led/led.c.o
 
 src/ECUAL/led/led.i: src/ECUAL/led/led.c.i
@@ -217,6 +339,8 @@ src/ECUAL/led/led.i: src/ECUAL/led/led.c.i
 # target to preprocess a source file
 src/ECUAL/led/led.c.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/traffic.dir/build.make CMakeFiles/traffic.dir/src/ECUAL/led/led.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/led_test.dir/build.make CMakeFiles/led_test.dir/src/ECUAL/led/led.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/button_test.dir/build.make CMakeFiles/button_test.dir/src/ECUAL/led/led.c.i
 .PHONY : src/ECUAL/led/led.c.i
 
 src/ECUAL/led/led.s: src/ECUAL/led/led.c.s
@@ -225,6 +349,8 @@ src/ECUAL/led/led.s: src/ECUAL/led/led.c.s
 # target to generate assembly for a file
 src/ECUAL/led/led.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/traffic.dir/build.make CMakeFiles/traffic.dir/src/ECUAL/led/led.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/led_test.dir/build.make CMakeFiles/led_test.dir/src/ECUAL/led/led.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/button_test.dir/build.make CMakeFiles/button_test.dir/src/ECUAL/led/led.c.s
 .PHONY : src/ECUAL/led/led.c.s
 
 src/MCAL/dio/dio.o: src/MCAL/dio/dio.c.o
@@ -233,6 +359,9 @@ src/MCAL/dio/dio.o: src/MCAL/dio/dio.c.o
 # target to build an object file
 src/MCAL/dio/dio.c.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/traffic.dir/build.make CMakeFiles/traffic.dir/src/MCAL/dio/dio.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dio_test.dir/build.make CMakeFiles/dio_test.dir/src/MCAL/dio/dio.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/led_test.dir/build.make CMakeFiles/led_test.dir/src/MCAL/dio/dio.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/button_test.dir/build.make CMakeFiles/button_test.dir/src/MCAL/dio/dio.c.o
 .PHONY : src/MCAL/dio/dio.c.o
 
 src/MCAL/dio/dio.i: src/MCAL/dio/dio.c.i
@@ -241,6 +370,9 @@ src/MCAL/dio/dio.i: src/MCAL/dio/dio.c.i
 # target to preprocess a source file
 src/MCAL/dio/dio.c.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/traffic.dir/build.make CMakeFiles/traffic.dir/src/MCAL/dio/dio.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dio_test.dir/build.make CMakeFiles/dio_test.dir/src/MCAL/dio/dio.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/led_test.dir/build.make CMakeFiles/led_test.dir/src/MCAL/dio/dio.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/button_test.dir/build.make CMakeFiles/button_test.dir/src/MCAL/dio/dio.c.i
 .PHONY : src/MCAL/dio/dio.c.i
 
 src/MCAL/dio/dio.s: src/MCAL/dio/dio.c.s
@@ -249,6 +381,9 @@ src/MCAL/dio/dio.s: src/MCAL/dio/dio.c.s
 # target to generate assembly for a file
 src/MCAL/dio/dio.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/traffic.dir/build.make CMakeFiles/traffic.dir/src/MCAL/dio/dio.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dio_test.dir/build.make CMakeFiles/dio_test.dir/src/MCAL/dio/dio.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/led_test.dir/build.make CMakeFiles/led_test.dir/src/MCAL/dio/dio.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/button_test.dir/build.make CMakeFiles/button_test.dir/src/MCAL/dio/dio.c.s
 .PHONY : src/MCAL/dio/dio.c.s
 
 src/MCAL/timer/timer.o: src/MCAL/timer/timer.c.o
@@ -257,6 +392,9 @@ src/MCAL/timer/timer.o: src/MCAL/timer/timer.c.o
 # target to build an object file
 src/MCAL/timer/timer.c.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/traffic.dir/build.make CMakeFiles/traffic.dir/src/MCAL/timer/timer.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dio_test.dir/build.make CMakeFiles/dio_test.dir/src/MCAL/timer/timer.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/led_test.dir/build.make CMakeFiles/led_test.dir/src/MCAL/timer/timer.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/button_test.dir/build.make CMakeFiles/button_test.dir/src/MCAL/timer/timer.c.o
 .PHONY : src/MCAL/timer/timer.c.o
 
 src/MCAL/timer/timer.i: src/MCAL/timer/timer.c.i
@@ -265,6 +403,9 @@ src/MCAL/timer/timer.i: src/MCAL/timer/timer.c.i
 # target to preprocess a source file
 src/MCAL/timer/timer.c.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/traffic.dir/build.make CMakeFiles/traffic.dir/src/MCAL/timer/timer.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dio_test.dir/build.make CMakeFiles/dio_test.dir/src/MCAL/timer/timer.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/led_test.dir/build.make CMakeFiles/led_test.dir/src/MCAL/timer/timer.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/button_test.dir/build.make CMakeFiles/button_test.dir/src/MCAL/timer/timer.c.i
 .PHONY : src/MCAL/timer/timer.c.i
 
 src/MCAL/timer/timer.s: src/MCAL/timer/timer.c.s
@@ -273,6 +414,9 @@ src/MCAL/timer/timer.s: src/MCAL/timer/timer.c.s
 # target to generate assembly for a file
 src/MCAL/timer/timer.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/traffic.dir/build.make CMakeFiles/traffic.dir/src/MCAL/timer/timer.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dio_test.dir/build.make CMakeFiles/dio_test.dir/src/MCAL/timer/timer.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/led_test.dir/build.make CMakeFiles/led_test.dir/src/MCAL/timer/timer.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/button_test.dir/build.make CMakeFiles/button_test.dir/src/MCAL/timer/timer.c.s
 .PHONY : src/MCAL/timer/timer.c.s
 
 src/main.o: src/main.c.o
@@ -299,6 +443,78 @@ src/main.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/traffic.dir/build.make CMakeFiles/traffic.dir/src/main.c.s
 .PHONY : src/main.c.s
 
+test/button_test.o: test/button_test.c.o
+.PHONY : test/button_test.o
+
+# target to build an object file
+test/button_test.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/button_test.dir/build.make CMakeFiles/button_test.dir/test/button_test.c.o
+.PHONY : test/button_test.c.o
+
+test/button_test.i: test/button_test.c.i
+.PHONY : test/button_test.i
+
+# target to preprocess a source file
+test/button_test.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/button_test.dir/build.make CMakeFiles/button_test.dir/test/button_test.c.i
+.PHONY : test/button_test.c.i
+
+test/button_test.s: test/button_test.c.s
+.PHONY : test/button_test.s
+
+# target to generate assembly for a file
+test/button_test.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/button_test.dir/build.make CMakeFiles/button_test.dir/test/button_test.c.s
+.PHONY : test/button_test.c.s
+
+test/dio_test.o: test/dio_test.c.o
+.PHONY : test/dio_test.o
+
+# target to build an object file
+test/dio_test.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dio_test.dir/build.make CMakeFiles/dio_test.dir/test/dio_test.c.o
+.PHONY : test/dio_test.c.o
+
+test/dio_test.i: test/dio_test.c.i
+.PHONY : test/dio_test.i
+
+# target to preprocess a source file
+test/dio_test.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dio_test.dir/build.make CMakeFiles/dio_test.dir/test/dio_test.c.i
+.PHONY : test/dio_test.c.i
+
+test/dio_test.s: test/dio_test.c.s
+.PHONY : test/dio_test.s
+
+# target to generate assembly for a file
+test/dio_test.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dio_test.dir/build.make CMakeFiles/dio_test.dir/test/dio_test.c.s
+.PHONY : test/dio_test.c.s
+
+test/led_test.o: test/led_test.c.o
+.PHONY : test/led_test.o
+
+# target to build an object file
+test/led_test.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/led_test.dir/build.make CMakeFiles/led_test.dir/test/led_test.c.o
+.PHONY : test/led_test.c.o
+
+test/led_test.i: test/led_test.c.i
+.PHONY : test/led_test.i
+
+# target to preprocess a source file
+test/led_test.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/led_test.dir/build.make CMakeFiles/led_test.dir/test/led_test.c.i
+.PHONY : test/led_test.c.i
+
+test/led_test.s: test/led_test.c.s
+.PHONY : test/led_test.s
+
+# target to generate assembly for a file
+test/led_test.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/led_test.dir/build.make CMakeFiles/led_test.dir/test/led_test.c.s
+.PHONY : test/led_test.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -308,7 +524,16 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... hex"
+	@echo "... hex_button"
+	@echo "... hex_dio"
+	@echo "... hex_led"
 	@echo "... strip"
+	@echo "... strip_button"
+	@echo "... strip_dio"
+	@echo "... strip_led"
+	@echo "... button_test"
+	@echo "... dio_test"
+	@echo "... led_test"
 	@echo "... traffic"
 	@echo "... src/Application/app.o"
 	@echo "... src/Application/app.i"
@@ -328,6 +553,15 @@ help:
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
+	@echo "... test/button_test.o"
+	@echo "... test/button_test.i"
+	@echo "... test/button_test.s"
+	@echo "... test/dio_test.o"
+	@echo "... test/dio_test.i"
+	@echo "... test/dio_test.s"
+	@echo "... test/led_test.o"
+	@echo "... test/led_test.i"
+	@echo "... test/led_test.s"
 .PHONY : help
 
 

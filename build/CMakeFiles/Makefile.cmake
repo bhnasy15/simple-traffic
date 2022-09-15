@@ -10,6 +10,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/home/yarob/Arduino/simulide/traffic/traffic_code/CMakeLists.txt"
   "CMakeFiles/3.24.1/CMakeCCompiler.cmake"
   "CMakeFiles/3.24.1/CMakeSystem.cmake"
+  "/home/yarob/Arduino/simulide/traffic/traffic_code/test/test.simu"
   "/usr/share/cmake/Modules/CMakeCInformation.cmake"
   "/usr/share/cmake/Modules/CMakeCommonLanguageInclude.cmake"
   "/usr/share/cmake/Modules/CMakeGenericSystem.cmake"
@@ -34,6 +35,7 @@ set(CMAKE_MAKEFILE_OUTPUTS
 
 # Byproducts of CMake generate step:
 set(CMAKE_MAKEFILE_PRODUCTS
+  "test/test_circuit.simu"
   "CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
@@ -42,4 +44,13 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/traffic.dir/DependInfo.cmake"
   "CMakeFiles/strip.dir/DependInfo.cmake"
   "CMakeFiles/hex.dir/DependInfo.cmake"
+  "CMakeFiles/dio_test.dir/DependInfo.cmake"
+  "CMakeFiles/strip_dio.dir/DependInfo.cmake"
+  "CMakeFiles/hex_dio.dir/DependInfo.cmake"
+  "CMakeFiles/led_test.dir/DependInfo.cmake"
+  "CMakeFiles/strip_led.dir/DependInfo.cmake"
+  "CMakeFiles/hex_led.dir/DependInfo.cmake"
+  "CMakeFiles/button_test.dir/DependInfo.cmake"
+  "CMakeFiles/strip_button.dir/DependInfo.cmake"
+  "CMakeFiles/hex_button.dir/DependInfo.cmake"
   )

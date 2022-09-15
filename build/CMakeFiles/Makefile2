@@ -66,6 +66,15 @@ CMAKE_BINARY_DIR = /home/yarob/Arduino/simulide/traffic/traffic_code/build
 all: CMakeFiles/traffic.dir/all
 all: CMakeFiles/strip.dir/all
 all: CMakeFiles/hex.dir/all
+all: CMakeFiles/dio_test.dir/all
+all: CMakeFiles/strip_dio.dir/all
+all: CMakeFiles/hex_dio.dir/all
+all: CMakeFiles/led_test.dir/all
+all: CMakeFiles/strip_led.dir/all
+all: CMakeFiles/hex_led.dir/all
+all: CMakeFiles/button_test.dir/all
+all: CMakeFiles/strip_button.dir/all
+all: CMakeFiles/hex_button.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -76,6 +85,15 @@ preinstall:
 clean: CMakeFiles/traffic.dir/clean
 clean: CMakeFiles/strip.dir/clean
 clean: CMakeFiles/hex.dir/clean
+clean: CMakeFiles/dio_test.dir/clean
+clean: CMakeFiles/strip_dio.dir/clean
+clean: CMakeFiles/hex_dio.dir/clean
+clean: CMakeFiles/led_test.dir/clean
+clean: CMakeFiles/strip_led.dir/clean
+clean: CMakeFiles/hex_led.dir/clean
+clean: CMakeFiles/button_test.dir/clean
+clean: CMakeFiles/strip_button.dir/clean
+clean: CMakeFiles/hex_button.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -85,7 +103,7 @@ clean: CMakeFiles/hex.dir/clean
 CMakeFiles/traffic.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/traffic.dir/build.make CMakeFiles/traffic.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/traffic.dir/build.make CMakeFiles/traffic.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/yarob/Arduino/simulide/traffic/traffic_code/build/CMakeFiles --progress-num=1,2,3,4,5,6,7 "Built target traffic"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/yarob/Arduino/simulide/traffic/traffic_code/build/CMakeFiles --progress-num=16,17,18,19,20,21,22 "Built target traffic"
 .PHONY : CMakeFiles/traffic.dir/all
 
 # Build rule for subdir invocation for target.
@@ -155,6 +173,240 @@ hex: CMakeFiles/hex.dir/rule
 CMakeFiles/hex.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/hex.dir/build.make CMakeFiles/hex.dir/clean
 .PHONY : CMakeFiles/hex.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/dio_test.dir
+
+# All Build rule for target.
+CMakeFiles/dio_test.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dio_test.dir/build.make CMakeFiles/dio_test.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dio_test.dir/build.make CMakeFiles/dio_test.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/yarob/Arduino/simulide/traffic/traffic_code/build/CMakeFiles --progress-num=7,8,9,10 "Built target dio_test"
+.PHONY : CMakeFiles/dio_test.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/dio_test.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/yarob/Arduino/simulide/traffic/traffic_code/build/CMakeFiles 4
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/dio_test.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/yarob/Arduino/simulide/traffic/traffic_code/build/CMakeFiles 0
+.PHONY : CMakeFiles/dio_test.dir/rule
+
+# Convenience name for target.
+dio_test: CMakeFiles/dio_test.dir/rule
+.PHONY : dio_test
+
+# clean rule for target.
+CMakeFiles/dio_test.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dio_test.dir/build.make CMakeFiles/dio_test.dir/clean
+.PHONY : CMakeFiles/dio_test.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/strip_dio.dir
+
+# All Build rule for target.
+CMakeFiles/strip_dio.dir/all: CMakeFiles/dio_test.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/strip_dio.dir/build.make CMakeFiles/strip_dio.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/strip_dio.dir/build.make CMakeFiles/strip_dio.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/yarob/Arduino/simulide/traffic/traffic_code/build/CMakeFiles --progress-num= "Built target strip_dio"
+.PHONY : CMakeFiles/strip_dio.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/strip_dio.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/yarob/Arduino/simulide/traffic/traffic_code/build/CMakeFiles 4
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/strip_dio.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/yarob/Arduino/simulide/traffic/traffic_code/build/CMakeFiles 0
+.PHONY : CMakeFiles/strip_dio.dir/rule
+
+# Convenience name for target.
+strip_dio: CMakeFiles/strip_dio.dir/rule
+.PHONY : strip_dio
+
+# clean rule for target.
+CMakeFiles/strip_dio.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/strip_dio.dir/build.make CMakeFiles/strip_dio.dir/clean
+.PHONY : CMakeFiles/strip_dio.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/hex_dio.dir
+
+# All Build rule for target.
+CMakeFiles/hex_dio.dir/all: CMakeFiles/strip_dio.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hex_dio.dir/build.make CMakeFiles/hex_dio.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hex_dio.dir/build.make CMakeFiles/hex_dio.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/yarob/Arduino/simulide/traffic/traffic_code/build/CMakeFiles --progress-num= "Built target hex_dio"
+.PHONY : CMakeFiles/hex_dio.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/hex_dio.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/yarob/Arduino/simulide/traffic/traffic_code/build/CMakeFiles 4
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/hex_dio.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/yarob/Arduino/simulide/traffic/traffic_code/build/CMakeFiles 0
+.PHONY : CMakeFiles/hex_dio.dir/rule
+
+# Convenience name for target.
+hex_dio: CMakeFiles/hex_dio.dir/rule
+.PHONY : hex_dio
+
+# clean rule for target.
+CMakeFiles/hex_dio.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hex_dio.dir/build.make CMakeFiles/hex_dio.dir/clean
+.PHONY : CMakeFiles/hex_dio.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/led_test.dir
+
+# All Build rule for target.
+CMakeFiles/led_test.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/led_test.dir/build.make CMakeFiles/led_test.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/led_test.dir/build.make CMakeFiles/led_test.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/yarob/Arduino/simulide/traffic/traffic_code/build/CMakeFiles --progress-num=11,12,13,14,15 "Built target led_test"
+.PHONY : CMakeFiles/led_test.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/led_test.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/yarob/Arduino/simulide/traffic/traffic_code/build/CMakeFiles 5
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/led_test.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/yarob/Arduino/simulide/traffic/traffic_code/build/CMakeFiles 0
+.PHONY : CMakeFiles/led_test.dir/rule
+
+# Convenience name for target.
+led_test: CMakeFiles/led_test.dir/rule
+.PHONY : led_test
+
+# clean rule for target.
+CMakeFiles/led_test.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/led_test.dir/build.make CMakeFiles/led_test.dir/clean
+.PHONY : CMakeFiles/led_test.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/strip_led.dir
+
+# All Build rule for target.
+CMakeFiles/strip_led.dir/all: CMakeFiles/led_test.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/strip_led.dir/build.make CMakeFiles/strip_led.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/strip_led.dir/build.make CMakeFiles/strip_led.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/yarob/Arduino/simulide/traffic/traffic_code/build/CMakeFiles --progress-num= "Built target strip_led"
+.PHONY : CMakeFiles/strip_led.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/strip_led.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/yarob/Arduino/simulide/traffic/traffic_code/build/CMakeFiles 5
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/strip_led.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/yarob/Arduino/simulide/traffic/traffic_code/build/CMakeFiles 0
+.PHONY : CMakeFiles/strip_led.dir/rule
+
+# Convenience name for target.
+strip_led: CMakeFiles/strip_led.dir/rule
+.PHONY : strip_led
+
+# clean rule for target.
+CMakeFiles/strip_led.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/strip_led.dir/build.make CMakeFiles/strip_led.dir/clean
+.PHONY : CMakeFiles/strip_led.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/hex_led.dir
+
+# All Build rule for target.
+CMakeFiles/hex_led.dir/all: CMakeFiles/strip_led.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hex_led.dir/build.make CMakeFiles/hex_led.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hex_led.dir/build.make CMakeFiles/hex_led.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/yarob/Arduino/simulide/traffic/traffic_code/build/CMakeFiles --progress-num= "Built target hex_led"
+.PHONY : CMakeFiles/hex_led.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/hex_led.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/yarob/Arduino/simulide/traffic/traffic_code/build/CMakeFiles 5
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/hex_led.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/yarob/Arduino/simulide/traffic/traffic_code/build/CMakeFiles 0
+.PHONY : CMakeFiles/hex_led.dir/rule
+
+# Convenience name for target.
+hex_led: CMakeFiles/hex_led.dir/rule
+.PHONY : hex_led
+
+# clean rule for target.
+CMakeFiles/hex_led.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hex_led.dir/build.make CMakeFiles/hex_led.dir/clean
+.PHONY : CMakeFiles/hex_led.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/button_test.dir
+
+# All Build rule for target.
+CMakeFiles/button_test.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/button_test.dir/build.make CMakeFiles/button_test.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/button_test.dir/build.make CMakeFiles/button_test.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/yarob/Arduino/simulide/traffic/traffic_code/build/CMakeFiles --progress-num=1,2,3,4,5,6 "Built target button_test"
+.PHONY : CMakeFiles/button_test.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/button_test.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/yarob/Arduino/simulide/traffic/traffic_code/build/CMakeFiles 6
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/button_test.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/yarob/Arduino/simulide/traffic/traffic_code/build/CMakeFiles 0
+.PHONY : CMakeFiles/button_test.dir/rule
+
+# Convenience name for target.
+button_test: CMakeFiles/button_test.dir/rule
+.PHONY : button_test
+
+# clean rule for target.
+CMakeFiles/button_test.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/button_test.dir/build.make CMakeFiles/button_test.dir/clean
+.PHONY : CMakeFiles/button_test.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/strip_button.dir
+
+# All Build rule for target.
+CMakeFiles/strip_button.dir/all: CMakeFiles/button_test.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/strip_button.dir/build.make CMakeFiles/strip_button.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/strip_button.dir/build.make CMakeFiles/strip_button.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/yarob/Arduino/simulide/traffic/traffic_code/build/CMakeFiles --progress-num= "Built target strip_button"
+.PHONY : CMakeFiles/strip_button.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/strip_button.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/yarob/Arduino/simulide/traffic/traffic_code/build/CMakeFiles 6
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/strip_button.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/yarob/Arduino/simulide/traffic/traffic_code/build/CMakeFiles 0
+.PHONY : CMakeFiles/strip_button.dir/rule
+
+# Convenience name for target.
+strip_button: CMakeFiles/strip_button.dir/rule
+.PHONY : strip_button
+
+# clean rule for target.
+CMakeFiles/strip_button.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/strip_button.dir/build.make CMakeFiles/strip_button.dir/clean
+.PHONY : CMakeFiles/strip_button.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/hex_button.dir
+
+# All Build rule for target.
+CMakeFiles/hex_button.dir/all: CMakeFiles/strip_button.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hex_button.dir/build.make CMakeFiles/hex_button.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hex_button.dir/build.make CMakeFiles/hex_button.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/yarob/Arduino/simulide/traffic/traffic_code/build/CMakeFiles --progress-num= "Built target hex_button"
+.PHONY : CMakeFiles/hex_button.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/hex_button.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/yarob/Arduino/simulide/traffic/traffic_code/build/CMakeFiles 6
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/hex_button.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/yarob/Arduino/simulide/traffic/traffic_code/build/CMakeFiles 0
+.PHONY : CMakeFiles/hex_button.dir/rule
+
+# Convenience name for target.
+hex_button: CMakeFiles/hex_button.dir/rule
+.PHONY : hex_button
+
+# clean rule for target.
+CMakeFiles/hex_button.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hex_button.dir/build.make CMakeFiles/hex_button.dir/clean
+.PHONY : CMakeFiles/hex_button.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

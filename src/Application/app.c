@@ -14,7 +14,6 @@ const int delay = 400;
 /*********************************************/
 bit_t is_car = 1;
 bit_t is_ped = 0;
-bit_t was_ped = 0;
 int tic = 1;
 /*********************************************/
 
@@ -110,12 +109,10 @@ void yellow(){
 	if( is_ped){
 		led_t next[2] = { car[YELLOW], ped[YELLOW]};
 		swap(next, sizeof(next)/sizeof(next[0]));
-		was_ped = 1;
 	}
 	if( !is_ped){
 		led_t next[1] = { car[YELLOW]};
 		swap(next, sizeof(next)/sizeof(next[0]));
-		was_ped = 0;
 	}
 	is_car = ! is_car;
 	is_ped = is_pressed;
@@ -129,7 +126,7 @@ void green(){
 	LED_ON(car[GREEN]);
 	LED_OFF(car[RED]);
 
-	if( was_ped) LED_ON(ped[RED]);
+	LED_ON(ped[RED]);
 
 	// if button is pressed >> ped->red is on
 	if(is_pressed){

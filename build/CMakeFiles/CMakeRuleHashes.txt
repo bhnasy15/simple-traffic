@@ -1,3 +1,9 @@
 # Hashes of file build rules.
 66f0e63e08969546e59e8a83e9985cc0 CMakeFiles/hex
+9e490c370e7a7fc4bcbc33b470f0866a CMakeFiles/hex_button
+d8076f876c5d796443874a67b2d3777d CMakeFiles/hex_dio
+38a1555beef7bdb6f0fdb8dce49a5221 CMakeFiles/hex_led
 7b37b35d0ecdffb9ddd2f035c22d73ba CMakeFiles/strip
+12311a305fc537b05b1ac873311bad9b CMakeFiles/strip_button
+fa40836558bcc1b3cabae48e7925a7f1 CMakeFiles/strip_dio
+f4f9e7ac992724660a70bd9cebdd30b3 CMakeFiles/strip_led

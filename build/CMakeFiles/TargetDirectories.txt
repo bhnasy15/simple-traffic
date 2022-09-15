@@ -1,5 +1,14 @@
 /home/yarob/Arduino/simulide/traffic/traffic_code/build/CMakeFiles/traffic.dir
 /home/yarob/Arduino/simulide/traffic/traffic_code/build/CMakeFiles/strip.dir
 /home/yarob/Arduino/simulide/traffic/traffic_code/build/CMakeFiles/hex.dir
+/home/yarob/Arduino/simulide/traffic/traffic_code/build/CMakeFiles/dio_test.dir
+/home/yarob/Arduino/simulide/traffic/traffic_code/build/CMakeFiles/strip_dio.dir
+/home/yarob/Arduino/simulide/traffic/traffic_code/build/CMakeFiles/hex_dio.dir
+/home/yarob/Arduino/simulide/traffic/traffic_code/build/CMakeFiles/led_test.dir
+/home/yarob/Arduino/simulide/traffic/traffic_code/build/CMakeFiles/strip_led.dir
+/home/yarob/Arduino/simulide/traffic/traffic_code/build/CMakeFiles/hex_led.dir
+/home/yarob/Arduino/simulide/traffic/traffic_code/build/CMakeFiles/button_test.dir
+/home/yarob/Arduino/simulide/traffic/traffic_code/build/CMakeFiles/strip_button.dir
+/home/yarob/Arduino/simulide/traffic/traffic_code/build/CMakeFiles/hex_button.dir
 /home/yarob/Arduino/simulide/traffic/traffic_code/build/CMakeFiles/edit_cache.dir
 /home/yarob/Arduino/simulide/traffic/traffic_code/build/CMakeFiles/rebuild_cache.dir
