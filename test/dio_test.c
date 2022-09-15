@@ -16,7 +16,7 @@ int main(void){
 	//
 	// // expected out come
 	// /* the led is on for 1s then off for 1s
-	// /* if button is pressed teh led will blick 
+	// /* if button is pressed teh led will blink 
 	// 		twice per second.
 	/******************************************/
 
