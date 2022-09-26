@@ -34,6 +34,7 @@ led_t ped[3] = {
 
 button_t walk_btn = { .port = D, .pin = _2 };
 bit_t is_pressed ;
+bit_t is_down ;
 /*********************************************/
 
 /*********************************************/
@@ -58,43 +59,59 @@ byte APP_INIT(){
 /*********************************************/
 // main loop
 /*********************************************/
+
 byte APP_LOOP(){
+
+	BUTTON_STATE(walk_btn, &is_down);
+	if(is_down){
+		delay_ms(300);
+		BUTTON_STATE(walk_btn, &is_down);
+		is_pressed = !is_down;
+	}
 	// number of loops = cycle / delay
 
 	// after every cycle >> yellow
 	if((tic % (int) (cycle*1000/delay)) == 0) yellow();
 	
 	// only check button if not pedesterian mode
-	if( !is_pressed && !is_ped) BUTTON_STATE(walk_btn, &is_pressed);
 
 	if(is_car) green();
 	
 	if(!is_car) red();
 	
 	tic++; delay_ms(delay);
+
 }
 
 /*********************************************/
 // transition fuction
 // called every cycle apart form yellow
 /*********************************************/
-void swap(led_t *led, int size){
+void swap(){
 	// reset all lights to OFF
 	for (int i = 0; i < sizeof(car)/sizeof(car[0]); i++) { LED_OFF(car[i]); }
 	for (int i = 0; i < sizeof(ped)/sizeof(ped[0]); i++) { LED_OFF(ped[i]); }
 
 	// do a full cycle of yellow
 	for (int i = 0; i < (int) (cycle*1000/delay); i++) {
-		
 		// if button is not pressed toggle the input list only
-		if(!is_pressed) for (int x = 0; x < size; x++) { LED_TOGGLE(led[x]); }
+		if(!is_pressed) {
+			LED_TOGGLE(car[YELLOW]);
+			delay_ms(delay);
+
+			BUTTON_STATE(walk_btn, &is_down);
+			if(is_down){
+				delay_ms(300);
+				BUTTON_STATE(walk_btn, &is_down);
+				is_pressed = !is_down;
+			}
+		}
 
 		// if button is pressed toggle all yellow lights
-		if(is_pressed) { LED_TOGGLE(car[YELLOW]); LED_TOGGLE(ped[YELLOW]); }
-
-		delay_ms(delay);
-
-		if( !is_pressed && !is_ped) BUTTON_STATE(walk_btn, &is_pressed);
+		if(is_pressed) { 
+			LED_TOGGLE(car[YELLOW]); LED_TOGGLE(ped[YELLOW]);
+			delay_ms(delay);
+		}
 	}
 	// exit with black
 	LED_OFF(car[1]); LED_OFF(ped[1]); 
@@ -107,12 +124,10 @@ void swap(led_t *led, int size){
 /*********************************************/
 void yellow(){
 	if( is_ped){
-		led_t next[2] = { car[YELLOW], ped[YELLOW]};
-		swap(next, sizeof(next)/sizeof(next[0]));
+		swap();
 	}
 	if( !is_ped){
-		led_t next[1] = { car[YELLOW]};
-		swap(next, sizeof(next)/sizeof(next[0]));
+		swap();
 	}
 	is_car = ! is_car;
 	is_ped = is_pressed;
@@ -138,8 +153,7 @@ void green(){
 			tic++;
 			delay_ms(delay);
 		}
-		led_t next[2] = { car[YELLOW], ped[YELLOW]};
-		swap(next, sizeof(next)/sizeof(next[0]));
+		swap();
 		is_car = 0;
 		is_ped = 1;
 		tic = 1;

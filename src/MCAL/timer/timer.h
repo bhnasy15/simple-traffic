@@ -4,6 +4,7 @@
 #include "../../Util/util.h"
 #include "../registers/registers.h"
 
+// list all timer states
 typedef enum {
 	STOP 				= 0x00,	   //No clock source (Timer/Counter stopped).
 	T_1					= 0x01,	   //clkI/O /(No prescaling)

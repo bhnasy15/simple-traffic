@@ -14,11 +14,13 @@ typedef enum {
 	_0, _1, _2, _3, _4, _5, _6, _7
 } pin_t;
 
+// list of all states
 typedef enum {
 	LOW = 0,
 	HIGH = 1,
 } bit_t;
 
+// list of data directions
 typedef enum {
 	IN = 0,
 	OUT = 1

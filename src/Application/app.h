@@ -14,7 +14,7 @@ enum color {
 	RED 	= 2
 };
 
-void swap(led_t*, int);
+void swap();
 
 byte APP_INIT();
 byte APP_LOOP();
